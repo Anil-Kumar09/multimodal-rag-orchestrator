@@ -10,7 +10,7 @@ openai_client = OpenAI(api_key="openAI_api_key")
 
 @app.get("/health-check")
 def health_check_service():
-    return {"status": "healthy"}
+    return {"status": "The service is up and Running"}
 
 
 @app.get("/api/chat")
